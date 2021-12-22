@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myweekfour.databinding.StudentItemBinding
 
+
 class Adapter (private val students: ArrayList<Student>): RecyclerView.Adapter<Adapter.ItemViewHolder>() {
 
     class ItemViewHolder(val binding: StudentItemBinding): RecyclerView.ViewHolder(binding.root)
